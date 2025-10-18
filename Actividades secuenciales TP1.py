@@ -65,8 +65,6 @@
 
 
 
-
-
 # #Ejercicio 8
 # # Altura = float(input("Ingrese su altura en metros: "))
 # # Peso = int(input("Ingrese su peso en kg: "))
