@@ -55,11 +55,97 @@
 
 #ACTIVIDAD 5
 
-def segundos_a_horas(segundos):
-    horas = segundos / 3600
-    return horas
+# def segundos_a_horas(segundos):
+#     horas = segundos / 3600
+#     return horas
 
-Segundos = int(input("Ingrese la cantidad de segundos: "))
-Horas = segundos_a_horas(Segundos)
-print(f"{Segundos} segundos equivalen a {Horas} horas")
+# Segundos = int(input("Ingrese la cantidad de segundos: "))
+# Horas = segundos_a_horas(Segundos)
+# print(f"{Segundos} segundos equivalen a {Horas} horas")
+
+
+#ACTIVIDAD 6
+
+# def tabla_multiplicar(numero):
+
+#     for i in range(1, 11):
+#         resultado = numero * i
+#         print(f"{numero} x {i} = {resultado}")
+#     return resultado
+
+
+
+# numero = int(input("Ingrese un numero para multiplicar: "))
+# tabla_multiplicar(numero)
+
+
+#ACTIVIDAD 7
+
+# def operaciones_basicas(a, b):
+#     suma = a + b
+#     resta = a - b
+#     multiplicacion = a * b
+#     division = a / b if b != 0 else "Indefinido (division por cero)"
+#     return suma, resta, multiplicacion, division
+
+
+# num1 = float(input("Ingrese el primer numero: "))
+# num2 = float(input("Ingrese el segundo numero: "))
+
+# suma, resta, multiplicacion, division = operaciones_basicas(num1, num2)
+
+# print(f"Suma: {suma}")
+# print(f"Resta: {resta}")
+# print(f"Multiplicacion: {multiplicacion}")
+# print(f"Division: {division}")
+
+#ACTIVIDAD 8
+
+# def calcular_imc(peso, altura):
+#     IMC = peso / (altura ** 2)
+#     return IMC
+
+
+# peso = float(input("Ingrese su peso en kilogramos: "))
+# altura = float(input("Ingrese su altura en metros: "))
+
+# imc = calcular_imc(peso, altura)
+
+# print(f"Su Indice de Masa Corporal (IMC) es: {imc: }")
+
+
+#ACTIVIDAD 9
+
+# def farenheit_a_celsius(fahrenheit):
+#     celsius = (fahrenheit - 32) * 5/9
+#     return celsius
+
+
+# farenheit = float(input("Ingrese la temperatura en grados Farenheit: "))
+
+# celsius = farenheit_a_celsius(farenheit)
+
+# print(f"La temperatura en grados Celsius es: {celsius}")
+
+#ACTIVIDAD 10
+
+# def calcular_promedio(a, b, c):
+#     promedio = (a + b + c) / 3
+#     return promedio
+
+
+# nota1 = float(input("Ingrese la primera nota: "))
+# nota2= float(input("Ingrese la segunda nota: "))
+# nota3 = float(input("Ingrese la tercera nota: "))
+
+# promedio = calcular_promedio(nota1, nota2, nota3)
+
+# print(f"El promedio de las notas es: {promedio}")
+
+
+
+
+
+
+
 
